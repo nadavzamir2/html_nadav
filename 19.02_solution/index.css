@@ -1,0 +1,11 @@
+.card-width {
+    width: 400px !important;
+    /* height: 400px !important; */
+    text-align: center;
+}
+
+.selectedClass{
+    background-color: yellow !important;
+    border: 2px solid black
+    
+}
