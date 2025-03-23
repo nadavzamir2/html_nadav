@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05.03 - Test </title>
+</head>
+<body>
+    <h1>My Cart</h1>
+    
+    <br><br>
+    <form id="form_data">
+
+        <div class="form-group">
+         <label for="ProductPrice">Product:</label>
+         <input class="form-control form-control-lg" id="ProductName" type="text" placeholder="Add Product"  required>
+         <input type="number" class="form-control" id="ProductPrice" placeholder="Add A Price ($)"  required>
+        </div>
+        <br><br>
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Select Category:</label>
+            <br><br>
+            <select multiple class="form-control" id="CategorySelect"  required>
+              <option>Drinks</option>
+              <option>Meat</option>
+              <option>Dairy</option>
+              <option>Snacks</option>
+              <option>Basic</option>  
+              </select>
+            
+          </div>
+          <br><br>
+          <div>
+            <label for="Imgurl">Enter URL:</label>
+           <input type="image" id="url" src="" alt="" width="300" height="48">
+           <div> 
+            <br><br><br>
+        <button type="button"  id="productButton" class="btn btn-primary">Add Product</button>
+    </div>
+                    
+              </div>
+          <br><br><br>
+<!--         
+        <button id="submitButton" type="submit" class="btn btn-primary">Submit</button> -->
+      </form>
+
+      <table id="products_table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>CategorySelect</th>
+                <th>URL</th>      
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>ProductName_EL.value</td>
+            <td>ProductPrice_EL.value</td>
+            <td>CategorySelect_EL.value</td>
+            <td>url_EL.value</td>      
+            </tr>
+           
+        </tbody>
+        </table>
+
+      
+    <script src="index.js"></script>
+</body>
+</html>

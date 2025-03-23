@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: auto;
+        background-color: yellow;
+        justify-content: center;
+        text-align: center;
+    }
+</style>
+
+
+<body>
+    <div>
+        <h1> Restaurant Booking</h1>
+    </div>
+    <div>
+
+        <label for="numberOfGuests">Number Of Guests:</label>
+        <input id="numberOfGuests" name="numberOfGuests" type="number" />
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input id="phoneNumber" name="phoneNumber" type="tel" />
+
+        <label for="contactPerson">Contact Person:</label>
+        <input id="contactPerson" name="contactPerson" type="text" />
+
+        <button id="add"> Add </button>
+
+    </div>
+    <div id="tables">
+        <div id="cardTable">
+            <ul>
+                <li>`table no' $()`</li>
+                <li>numberOfGuests.val</li>
+                <li> phoneNumber.val</li>
+                <li>contactPerson.val</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
